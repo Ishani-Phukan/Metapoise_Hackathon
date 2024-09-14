@@ -131,7 +131,7 @@ button{
 }
 
 .social-icons img {
-    width: 24px; /* Adjust size as needed */
+    width: 24px;
     height: auto;
     transition: opacity 0.3s;
 }
@@ -139,3 +139,4 @@ button{
 .social-icons img:hover {
     opacity: 0.7;
 }
+
