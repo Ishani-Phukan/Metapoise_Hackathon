@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.2rem;
+    font-family: "League Spartan", sans-serif;
+}
+
+body  {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+  
+header {
+    background-color: #cecdcd;
+    color: rgb(0, 0, 0);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 5px 5px rgb(181, 174, 174);
+}
+
+.nav-logo {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #454444;
+}
+
+nav li a:hover {
+    color: #ffe9cd;
+    transition: 0.2s ease;
+}
+
+nav li a.active {
+    background-color: #ffe9cd;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 5px 5px #8a8a8a;
+    color: #000000;
+}
+  
+#checkout-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+#checkout-form h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #337ab7;
+}
+  
+#checkout-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+#checkout-form input[type="text"],
+#checkout-form input[type="email"],
+#checkout-form input[type="tel"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+  
+#checkout-form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#checkout-form input[type="submit"]:hover {
+    background-color: #23527c;
+}
+  
+#order-summary {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#order-summary li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+  
+#order-summary li:last-child {
+    border-bottom: none;
+}
+  
+#order-summary li span {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 60px;
+    margin-bottom: 5px;
+    column-width: 1fr 1fr 1fr;
+}
+
+footer .col h4 {    
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer .col p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+.follow {
+    padding-right: 100px;
+}
+
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px; 
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
