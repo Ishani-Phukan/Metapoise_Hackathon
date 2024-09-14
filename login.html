@@ -1,4 +1,4 @@
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,12 +33,16 @@
     <script>
         function expand(lbl) {
             var elemID=lbl.getAttribute("for");
-            document.getElementById(elemId).style.height="45px";
-            document.getElementById(elemId).classList.add("my-style");
+            document.getElementById(elemID).style.height="45px";
+            document.getElementById(elemID).classList.add("my-style");
             lbl.style.transform="translateY(-45px)";
         }
     </script>
-    <footer></footer>
+
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>

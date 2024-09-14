@@ -173,7 +173,7 @@ input{
     width: 300px;
     position: absolute;
     background-color: #4d4d4d;
-    color: #0a0303;
+    color: #f6f1f1;
     padding: 0 15px;
     font-weight: 300;
     border-radius: 5px;
@@ -181,7 +181,7 @@ input{
 }
 label{
     display: inline-block;
-    color: #f5f3f2;
+    color: #0a0808;
     cursor: pointer;
     font-size: 12px;
     position: absolute;
