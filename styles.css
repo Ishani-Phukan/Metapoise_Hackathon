@@ -104,6 +104,58 @@ nav li a.active {
     padding: 5px 20px;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 60px;
+    margin-bottom: 5px;
+    column-width: 1fr 1fr 1fr;
+}
+
+footer .col h4 {    
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer .col p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+.follow {
+    padding-right: 100px;
+}
+
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px; 
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
+
 label[for="password"]
 {
     bottom: 200px;
@@ -125,21 +177,6 @@ button{
     cursor: pointer;
 }
 
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons img {
-    width: 24px;
-    height: auto;
-    transition: opacity 0.3s;
-}
-
-.social-icons img:hover {
-    transform: scale(1.2);
-    transition: all 0.2s ease;
-}
 form {
     background-color: #d9c6bd;
     height: 450px;
@@ -195,4 +232,5 @@ label[for="username"]{
 }
 #password{
     bottom: 195px;
-    }
+}
+
