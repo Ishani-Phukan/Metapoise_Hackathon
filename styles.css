@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.2rem;
+    font-family: "League Spartan", sans-serif;
+}
+
+body  {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    background-color: #cecdcd;
+    color: rgb(0, 0, 0);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 5px 5px rgb(181, 174, 174);
+}
+
+.nav-logo {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #454444;
+}
+
+nav li a:hover {
+    color: #ffe9cd;
+    transition: 0.2s ease;
+}
+
+nav li a.active {
+    background-color: #ffe9cd;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 5px 5px #8a8a8a;
+    color: #000000;
+}
+
+#hero {
+    background-image: url(image/collage.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+}   
+
+#hero h2 {
+    padding: 30px;
+    text-align: left;
+}
