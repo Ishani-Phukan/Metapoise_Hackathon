@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clothing Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
     <header>
@@ -18,6 +18,47 @@
             </ul>
         </nav>
     </header>
+
+<form id="checkout-form">
+    <h2>Customer Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+  
+    <h2>Shipping Address</h2>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br><br>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city"><br><br>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state"><br><br>
+    <label for="zip">Zip:</label>
+    <input type="text" id="zip" name="zip"><br><br>
+  
+    <h2>Payment Information</h2>
+    <label for="card-number">Card Number:</label>
+    <input type="text" id="card-number" name="card-number"><br><br>
+    <label for="expiration-date">Expiration Date:</label>
+    <input type="text" id="expiration-date" name="expiration-date"><br><br>
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv"><br><br>
+  
+    <!-- Order Summary -->
+    <h2>Order Summary</h2>
+    <ul id="order-summary">
+      <li>Product 1: $10.00</li>
+      <li>Product 2: $20.00</li>
+      <li>Subtotal: $30.00</li>
+      <li>Tax: $5.00</li>
+      <li>Total: $35.00</li>
+    </ul>
+  
+    <!-- Submit Button -->
+    <input type="submit" value="Place Order">
+  </form>
     <footer class="section-p1">
         <div class="col">
             <h4>Contact</h4>
