@@ -131,13 +131,13 @@ button{
 }
 
 .social-icons img {
-    width: 24px;
+    width: 24px; /* Adjust size as needed */
     height: auto;
     transition: opacity 0.3s;
 }
 
 .social-icons img:hover {
-    transform: scale(1.2);
-    transition: all 0.2s ease;
+    opacity: 0.7;
 }
+
 
