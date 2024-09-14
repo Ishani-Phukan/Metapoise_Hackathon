@@ -1,4 +1,4 @@
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +19,13 @@
         </nav>
     </header>
 
-    <form>
+    <form action="/submit-your-form-handler" method="post">
         <h1>Login</h1>
         <input type="text" id="username" placeholder="Enter your username">
-        <label for="username" oneclick="expand(this)">Username</label>
+        <label for="username" onclick="expand(this)">Username</label>
 
         <input type="password" id="password" placeholder="Enter your password">
-        <label for="password" oneclick="expand(this)">Password</label>
+        <label for="password" onclick="expand(this)">Password</label>
 
         <button>SUBMIT</button>
     </form>
@@ -33,8 +33,8 @@
     <script>
         function expand(lbl) {
             var elemID=lbl.getAttribute("for");
-            document.getElementById(elemId).style.height="45px";
-            document.getElementById(elemId).classList.add("my-style");
+            document.getElementById(elemID).style.height="45px";
+            document.getElementById(elemID).classList.add("my-style");
             lbl.style.transform="translateY(-45px)";
         }
     </script>
