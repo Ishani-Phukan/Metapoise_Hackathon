@@ -64,14 +64,32 @@ nav li a.active {
 }
 
 #hero {
-    background-image: url(image/collage.jpg);
-    height: 90vh;
-    width: 100%;
-    background-position: top 25% right 0;
-    background-size: cover;
-}   
+    background-color: bisque;
+    height: 500px;
+}
 
-#hero h2 {
-    padding: 30px;
-    text-align: left;
+.column {
+    float: left;
+    height: 500px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text h2 {
+    padding: 20px 10rem;
+}
+
+.text p {
+    padding: 20px 10rem;
+}
+
+.btn {
+    
+    padding: 5px 20px;
 }

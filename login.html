@@ -18,6 +18,26 @@
             </ul>
         </nav>
     </header>
+
+    <form>
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="Enter your username">
+        <label for="username" oneclick="expand(this)">Username</label>
+
+        <input type="paswword" id="password" placeholder="Enter your password">
+        <label for="password" oneclick="expand(this)">Password</label>
+
+        <button>SUBMIT</button>
+    </form>
+
+    <script>
+        function expand(lbl) {
+            var elemID=lbl.getAttribute("for");
+            document.getElementById(elemId).style.height="45px";
+            document.getElementById(elemId).classList.add("my-style");
+            lbl.style.transform="translateY(-45px)";
+        }
+    </script>
     <footer></footer>
     <script src="app.js"></script>
 </body>
